@@ -9,9 +9,7 @@ const IndexPage: MyPage = () => {
         Turbo Next Nest GraphQL Prisma
       </h1>
 
-      <p className="text-4xl font-bold">
-        My personal template for small production app
-      </p>
+      <p className="text-4xl font-bold">My personal stack for production app</p>
 
       <a href="https://github.com/Leomotors/turbo-next-nest-graphql-prisma">
         <Button>GitHub</Button>

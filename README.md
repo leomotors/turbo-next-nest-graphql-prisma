@@ -1,6 +1,6 @@
 # Turbo Next Nest GraphQL Prisma
 
-Application Stack for production app inspired by MonkeyEveryday
+My personal stack for production app, inspired by MonkeyEveryday
 
 ## Frontend
 
