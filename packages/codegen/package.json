@@ -1,0 +1,29 @@
+{
+  "name": "@org/codegen",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon --watch src --ext \"graphql\" --exec pnpm generate",
+    "generate": "graphql-codegen",
+    "lint": "eslint src --max-warnings=0",
+    "format": "eslint src --fix"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^2.13.8",
+    "@graphql-codegen/near-operation-file-preset": "^2.4.3",
+    "@graphql-codegen/typescript": "^2.8.0",
+    "@graphql-codegen/typescript-operations": "^2.5.5",
+    "@graphql-codegen/typescript-react-apollo": "^3.3.5",
+    "@org/config": "workspace:0.0.0",
+    "@org/constants": "workspace:0.0.0",
+    "eslint": "^8.26.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.1",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@org/design",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./index.ts",
+  "scripts": {
+    "lint": "eslint index.ts \"src/**/*.ts*\" --max-warnings=0",
+    "format": "eslint index.ts \"src/**/*.ts*\" *.ts* --fix"
+  },
+  "dependencies": {
+    "clsx": "^1.2.1"
+  },
+  "devDependencies": {
+    "@org/config": "workspace:0.0.0",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "eslint": "^8.26.0",
+    "next": "13.0.0",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "^4.8.4"
+  }
+}
