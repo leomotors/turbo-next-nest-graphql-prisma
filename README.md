@@ -16,6 +16,10 @@ My personal stack for production app, inspired by MonkeyEveryday
 - Nest
 - Prisma
 
+## Prettier Config
+
+- `@trivago/prettier-plugin-sort-imports` and `prettier-plugin-tailwindcss`
+
 ## Others
 
 - Database: PostgreSQL

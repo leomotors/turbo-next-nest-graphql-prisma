@@ -2,10 +2,10 @@
   "name": "@org/constants",
   "version": "0.0.0",
   "private": true,
-  "main": "./index.ts",
+  "main": "./src/index.ts",
   "scripts": {
-    "lint": "eslint *.ts* --max-warnings=0",
-    "format": "eslint *.ts* --fix"
+    "lint": "eslint src --max-warnings=0",
+    "format": "eslint src --fix"
   },
   "devDependencies": {
     "@org/config": "workspace:0.0.0"

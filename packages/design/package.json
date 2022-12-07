@@ -2,10 +2,10 @@
   "name": "@org/design",
   "version": "0.0.0",
   "private": true,
-  "main": "./index.ts",
+  "main": "./src/index.ts",
   "scripts": {
-    "lint": "eslint index.ts \"src/**/*.ts*\" --max-warnings=0",
-    "format": "eslint index.ts \"src/**/*.ts*\" *.ts* --fix"
+    "lint": "eslint src --max-warnings=0",
+    "format": "eslint src --fix"
   },
   "dependencies": {
     "clsx": "^1.2.1"
