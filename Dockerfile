@@ -1,4 +1,4 @@
-FROM node:16-alpine as builder
+FROM node:18-alpine as builder
 
 RUN apk add --no-cache libc6-compat
 RUN apk update
@@ -18,7 +18,7 @@ COPY prisma ./prisma
 RUN pnpm install
 RUN pnpm build:server
 
-FROM node:16-alpine
+FROM node:18-alpine
 
 WORKDIR /app
 
