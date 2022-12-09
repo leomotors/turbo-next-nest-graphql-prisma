@@ -10,16 +10,16 @@
     "format": "eslint src --fix"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "^2.15.0",
+    "@graphql-codegen/cli": "^2.16.1",
     "@graphql-codegen/near-operation-file-preset": "^2.4.4",
-    "@graphql-codegen/typescript": "^2.8.3",
-    "@graphql-codegen/typescript-operations": "^2.5.8",
+    "@graphql-codegen/typescript": "^2.8.5",
+    "@graphql-codegen/typescript-operations": "^2.5.10",
     "@graphql-codegen/typescript-react-apollo": "^3.3.7",
     "@org/config": "workspace:0.0.0",
     "@org/constants": "workspace:0.0.0",
     "eslint": "^8.29.0",
     "nodemon": "^2.0.20",
-    "prettier": "^2.8.0"
+    "prettier": "^2.8.1"
   },
   "dependencies": {
     "@apollo/client": "^3.7.2",

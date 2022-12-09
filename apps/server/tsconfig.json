@@ -14,6 +14,7 @@
     "skipLibCheck": true,
     "strictBindCallApply": false,
     "strict": true,
+    "importHelpers": true,
     "paths": {
       "@generated/*": ["src/@generated/*"]
     }
