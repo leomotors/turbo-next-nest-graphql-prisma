@@ -2,6 +2,7 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 
 import { ApolloProvider } from "@apollo/client";
+
 import { createApolloClient } from "@org/codegen";
 
 import "$styles/global.scss";

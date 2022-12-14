@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon --watch src --ext \"graphql\" --exec pnpm generate",
     "generate": "graphql-codegen",
-    "lint": "eslint src --max-warnings=0",
+    "lint": "eslint src",
     "format": "eslint src --fix"
   },
   "devDependencies": {

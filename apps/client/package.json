@@ -6,7 +6,7 @@
     "dev": "next dev -p 4200",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --max-warnings=0",
+    "lint": "eslint src",
     "format": "eslint src --fix"
   },
   "dependencies": {
