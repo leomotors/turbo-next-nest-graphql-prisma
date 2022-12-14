@@ -1,1 +1,1 @@
-module.exports = require("@org/config/eslint-app");
+module.exports = require("@org/config/eslint");

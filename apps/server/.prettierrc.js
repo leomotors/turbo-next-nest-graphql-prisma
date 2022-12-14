@@ -2,7 +2,7 @@
 
 /** @type {import("@trivago/prettier-plugin-sort-imports").PrettierConfig} */
 const config = {
-  ...require("@org/config/prettier-app"),
+  ...require("@org/config/prettier"),
   importOrder: [
     "^@nestjs",
     "^@",

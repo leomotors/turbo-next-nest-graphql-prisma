@@ -35,17 +35,24 @@ const config = {
         reservedFirst: true,
       },
     ],
+    "react/jsx-key": "error",
+    "react/display-name": "error",
     "sort-destructure-keys/sort-destructure-keys": "warn",
   },
   overrides: [
     {
-      files: [".eslintrc.js", ".prettierrc.js", "*.config.js"],
+      files: [".eslintrc.*", ".prettierrc.*", "*.config.js"],
       rules: {
         "@typescript-eslint/no-var-requires": "off",
         "no-undef": "off",
       },
     },
   ],
+  settings: {
+    react: {
+      version: "^18.2.0",
+    },
+  },
 };
 
 module.exports = config;
