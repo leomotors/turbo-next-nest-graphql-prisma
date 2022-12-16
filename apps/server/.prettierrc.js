@@ -1,18 +1,8 @@
 // @ts-check
 
-/** @type {import("@trivago/prettier-plugin-sort-imports").PrettierConfig} */
-const config = {
-  ...require("@org/config/prettier"),
-  importOrder: [
-    "^@nestjs",
-    "^@",
-    "^src/",
-    "^[a-zA-Z]",
-    "^./prisma",
-    "^./app",
-    "^[.][.]",
-    "^[.]",
-  ],
-};
+const {
+  withSortImports,
+  orderNestWithOrg,
+} = require("@leomotors/config/prettier");
 
-module.exports = config;
+module.exports = withSortImports({ importOrder: orderNestWithOrg("org") });

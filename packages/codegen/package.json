@@ -17,9 +17,7 @@
     "@graphql-codegen/typescript-react-apollo": "^3.3.7",
     "@org/config": "workspace:0.0.0",
     "@org/constants": "workspace:0.0.0",
-    "eslint": "^8.29.0",
-    "nodemon": "^2.0.20",
-    "prettier": "^2.8.1"
+    "nodemon": "^2.0.20"
   },
   "dependencies": {
     "@apollo/client": "^3.7.2",
