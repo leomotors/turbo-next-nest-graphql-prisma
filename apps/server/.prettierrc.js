@@ -5,4 +5,4 @@ const {
   orderNestWithOrg,
 } = require("@leomotors/config/prettier");
 
-module.exports = withSortImports({ importOrder: orderNestWithOrg("org") });
+module.exports = withSortImports({ importOrder: orderNestWithOrg("@org") });

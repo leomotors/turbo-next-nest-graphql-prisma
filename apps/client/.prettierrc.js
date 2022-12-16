@@ -5,4 +5,4 @@ const {
   orderNextWithOrg,
 } = require("@leomotors/config/prettier");
 
-module.exports = withTailwind({ importOrder: orderNextWithOrg("org") });
+module.exports = withTailwind({ importOrder: orderNextWithOrg("@org") });

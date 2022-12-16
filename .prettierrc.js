@@ -1,5 +1,3 @@
 // @ts-check
 
-const { withTailwind } = require("@leomotors/config/prettier");
-
-module.exports = withTailwind();
+module.exports = require("@leomotors/config/prettier").withTailwind();

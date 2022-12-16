@@ -30,6 +30,6 @@ My personal stack for production app, inspired by MonkeyEveryday
 
 - Create your repository from this template or use `degit`
 - Copy .env.template into .env (In root and apps/client)
-- Search for `@org` and change its name to what you want
+- Search and replace all `@org` into name you want
 - `pnpm install`
 - `pnpm dev` will start all app at the same time
