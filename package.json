@@ -8,10 +8,10 @@
     "dev": "FORCE_COLOR=2 turbo run dev --parallel",
     "lint": "FORCE_COLOR=2 turbo run lint",
     "format": "FORCE_COLOR=2 turbo run format",
-    "build:client": "FORCE_COLOR=2 pnpm turbo run --filter=\"@org/client\" build",
-    "start:client": "FORCE_COLOR=2 pnpm --filter=\"@org/client\" start",
-    "build:server": "FORCE_COLOR=2 pnpm turbo run --filter=\"@org/server\" build",
-    "start:server": "FORCE_COLOR=2 pnpm --filter=\"@org/server\" start"
+    "build:client": "FORCE_COLOR=2 turbo run --filter=\"@org/client\" build",
+    "start:client": "FORCE_COLOR=2 turbo run --filter=\"@org/client\" start",
+    "build:server": "FORCE_COLOR=2 turbo run --filter=\"@org/server\" build",
+    "start:server": "FORCE_COLOR=2 turbo run --filter=\"@org/server\" start"
   },
   "dependencies": {
     "@prisma/client": "^4.7.1"

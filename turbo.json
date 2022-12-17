@@ -10,6 +10,13 @@
         ".next/**"
       ]
     },
+    "start": {
+      "dependsOn": [
+        "build",
+        "^build"
+      ],
+      "cache": false
+    },
     "lint": {
       "outputs": []
     },
