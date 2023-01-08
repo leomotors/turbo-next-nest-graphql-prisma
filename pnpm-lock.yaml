@@ -70,7 +70,6 @@ importers:
       clsx: ^1.2.1
       eslint-config-next: ^13.1.1
       next: 13.1.1
-      next-transpile-modules: 10.0.0
       postcss: ^8.4.21
       react: 18.2.0
       react-dom: 18.2.0
@@ -93,7 +92,6 @@ importers:
       '@types/react-datepicker': 4.8.0_biqbaboplfbrettd7655fr4n2y
       autoprefixer: 10.4.13_postcss@8.4.21
       eslint-config-next: 13.1.1_iukboom6ndih5an6iafl45j2fe
-      next-transpile-modules: 10.0.0
       postcss: 8.4.21
       sass: 1.57.1
       tailwindcss: 3.2.4_postcss@8.4.21
@@ -6404,13 +6402,6 @@ packages:
 
   /neo-async/2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
-    dev: true
-
-  /next-transpile-modules/10.0.0:
-    resolution: {integrity: sha512-FyeJ++Lm2Fq31gbThiRCrJlYpIY9QaI7A3TjuhQLzOix8ChQrvn5ny4MhfIthS5cy6+uK1AhDRvxVdW17y3Xdw==}
-    deprecated: All features of next-transpile-modules are now natively built-in Next.js 13.1. Please use Next's transpilePackages option :)
-    dependencies:
-      enhanced-resolve: 5.12.0
     dev: true
 
   /next/13.1.1_3duxcpitbtplz62feflag7fwby:

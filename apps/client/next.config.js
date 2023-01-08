@@ -1,11 +1,12 @@
 // @ts-check
 
-const withTM = require("next-transpile-modules")([
-  "@org/codegen",
-  "@org/constants",
-  "@org/design",
-]);
-
-module.exports = withTM({
+/** @type {import('next').NextConfig} */
+const config = {
+  transpilePackages: ["@org/codegen", "@org/constants", "@org/design"],
   reactStrictMode: true,
-});
+  experimental: {
+    appDir: true,
+  },
+};
+
+module.exports = config;
