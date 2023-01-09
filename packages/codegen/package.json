@@ -16,7 +16,6 @@
     "@graphql-codegen/typescript-operations": "^2.5.12",
     "@graphql-codegen/typescript-react-apollo": "^3.3.7",
     "@org/config": "workspace:0.0.0",
-    "@org/constants": "workspace:0.0.0",
     "nodemon": "^2.0.20"
   },
   "dependencies": {

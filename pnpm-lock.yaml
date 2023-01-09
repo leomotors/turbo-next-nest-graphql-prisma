@@ -59,6 +59,7 @@ importers:
   apps/client:
     specifiers:
       '@apollo/client': ^3.7.3
+      '@org/apollo': workspace:0.0.0
       '@org/codegen': workspace:0.0.0
       '@org/config': workspace:0.0.0
       '@org/constants': workspace:0.0.0
@@ -78,6 +79,7 @@ importers:
       typescript: ^4.9.4
     dependencies:
       '@apollo/client': 3.7.3_gdcq4dv6opitr3wbfwyjmanyra
+      '@org/apollo': link:../../packages/apollo
       '@org/design': link:../../packages/design
       clsx: 1.2.1
       next: 13.1.1_3duxcpitbtplz62feflag7fwby
@@ -158,6 +160,17 @@ importers:
       typescript: 4.9.4
       webpack: 5.75.0
 
+  packages/apollo:
+    specifiers:
+      '@apollo/client': ^3.7.3
+      '@org/config': workspace:0.0.0
+      '@org/constants': workspace:0.0.0
+    dependencies:
+      '@apollo/client': 3.7.3_graphql@16.6.0
+    devDependencies:
+      '@org/config': link:../config
+      '@org/constants': link:../constants
+
   packages/codegen:
     specifiers:
       '@apollo/client': ^3.7.3
@@ -167,7 +180,6 @@ importers:
       '@graphql-codegen/typescript-operations': ^2.5.12
       '@graphql-codegen/typescript-react-apollo': ^3.3.7
       '@org/config': workspace:0.0.0
-      '@org/constants': workspace:0.0.0
       graphql: ^16.6.0
       graphql-tag: ^2.12.6
       nodemon: ^2.0.20
@@ -182,7 +194,6 @@ importers:
       '@graphql-codegen/typescript-operations': 2.5.12_graphql@16.6.0
       '@graphql-codegen/typescript-react-apollo': 3.3.7_sy4knu3obj4ys7pjcqbyfxmqle
       '@org/config': link:../config
-      '@org/constants': link:../constants
       nodemon: 2.0.20
 
   packages/config:
