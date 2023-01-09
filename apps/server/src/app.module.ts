@@ -1,9 +1,7 @@
-import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
 import { Global, Module } from "@nestjs/common";
 import { ConfigModule } from "@nestjs/config";
 import { GraphQLModule } from "@nestjs/graphql";
-
-import { ApolloServerPluginLandingPageLocalDefault } from "apollo-server-core";
+import { MercuriusDriver, MercuriusDriverConfig } from "@nestjs/mercurius";
 
 import { PrismaService } from "./prisma.service";
 
@@ -17,10 +15,8 @@ import { UserModule } from "./user/user.module";
     ConfigModule.forRoot({
       envFilePath: "../../.env",
     }),
-    GraphQLModule.forRoot<ApolloDriverConfig>({
-      driver: ApolloDriver,
-      playground: false,
-      plugins: [ApolloServerPluginLandingPageLocalDefault({ embed: true })],
+    GraphQLModule.forRoot<MercuriusDriverConfig>({
+      driver: MercuriusDriver,
       autoSchemaFile: "./src/@generated/schema.graphql",
     }),
     UserModule,
