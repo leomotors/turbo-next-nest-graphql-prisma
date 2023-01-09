@@ -52,6 +52,7 @@ export type NestedStringFilter = {
 
 export type Query = {
   __typename?: 'Query';
+  userCount: Scalars['Int'];
   users: Array<User>;
 };
 

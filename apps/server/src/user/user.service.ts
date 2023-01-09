@@ -11,4 +11,8 @@ export class UserService {
   findMany(args: FindManyUserArgs) {
     return this.prisma.user.findMany(args);
   }
+
+  userCount() {
+    return this.prisma.user.count();
+  }
 }
