@@ -3,6 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "devDependencies": {
-    "typescript": "^4.9.4"
+    "typescript": "^5.0.2"
   }
 }
